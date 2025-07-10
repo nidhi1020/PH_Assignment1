@@ -32,7 +32,7 @@ nav h1{
     font-weight: bold;
     color: #4E47FF;   
 }
-nav button,.parent button,.action button{
+nav button,.parent button,.action button,.focus button{
     height: 48px;
     width: 132px;
     font-size: 16px;
@@ -130,4 +130,27 @@ nav button,.parent button,.action button{
     border-radius: 15px ;
     padding: 30px;
 
+}
+/* focus */
+.focus{
+    max-width: 1140px;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+.focus h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.focus p{
+    text-align: center;
+    font-size: 22px;
+    color: gray;
+   
+}
+.focus img{
+    border-radius: 15px;
 }
