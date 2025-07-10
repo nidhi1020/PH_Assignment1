@@ -79,3 +79,35 @@ nav button,.parent button,.action button{
     font-size: 24px;
     font-weight: 30px;
 }
+/* productive users */
+.productive{
+    max-width: 1140px;
+    margin: 100px auto;
+    border: 20px ;
+    background-color: #dcdbfb;
+    border-radius: 10px;
+    padding: 40px 20px;
+    text-align: center
+}
+.productive h2{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+.userr{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.user{
+    padding: 40px;
+    justify-content: center;
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+.productive-des{
+    font-size: 20px;
+    color: gray;
+}
