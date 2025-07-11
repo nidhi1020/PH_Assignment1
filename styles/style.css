@@ -36,9 +36,11 @@ nav button,.parent button,.action button,.focus button{
     height: 48px;
     width: 132px;
     font-size: 16px;
+    font-weight: bold;
     background-color: #4E47FF;
     color: #FFFFFF;
-    border-radius: 10px ;  
+    border-radius: 10px ; 
+    border: none; 
 
 }
 .parent{
@@ -153,4 +155,68 @@ nav button,.parent button,.action button,.focus button{
 }
 .focus img{
     border-radius: 15px;
+}
+/* form */
+.form-section{
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    height: 632px;
+    margin: auto;
+    border-radius: 10px;
+    align-items: center;
+}
+form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 10px;
+    gap: 30px;
+}
+.left{
+    width: 50%;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left h3{
+    font-size: 97px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+.right{
+    width: 50%;
+    margin-left: 300px;
+    padding: 60px 40px;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+input,textarea{
+    height: 32px;
+    width: 100%;
+    font-size: 18px;
+    width: 100%;
+    padding: 18px ;
+    border-radius: 10px;
+    background: white;
+    border: none;
+}
+textarea{
+    height: 100px;
+}
+.right button{
+    height: 62px;
+    width: 497px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 10px ; 
+    border: none; 
+
 }
