@@ -220,3 +220,37 @@ textarea{
     border: none; 
 
 }
+/* footer */
+footer{
+
+    background-color: white;
+}
+.foot{
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.list ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+.foot h1{
+    color: #4E47FF;
+    font-size: 97px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.foot p{
+    color: #8987A1;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.foot ul li{
+    color: #8987A1;
+    margin-bottom: 80px;
+}
